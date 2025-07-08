@@ -201,7 +201,8 @@ body {
 .contact-section-header h2 {
     font-family:'Space Grotesk', 'arial';
     padding: 0.1em;
-    font-size: 4em;  
+    font-size: 4em;
+    margin: 0 1em; 
 }
 
 h2 span {
