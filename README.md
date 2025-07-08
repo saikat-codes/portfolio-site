@@ -13,7 +13,14 @@ A responsive, modern, and aesthetically pleasing portfolio website showcasing my
 
 ## Preview
 
-![Portfolio Screenshot](screenshot.png)  
+### Homepage
+![Homepage Screenshot](screenshot-homepage.png)
+
+### Projects Section
+![Projects Screenshot](screenshot-projects.png)
+
+### Contact Section
+![Contact Screenshot](screenshot-contact.png)  
 
 ## Live Demo
 
