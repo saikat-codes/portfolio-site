@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="nav">
+        <div class="logo">
+            <img src="new-colored-logo.png" alt="logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="welcome-section" id="welcome-section">
+        <h1>Hey, I am <span>Saikat</span></h1>
+        <p>an aspiring <span id="element"></span></p>
+        
+    </section>
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">Things I’ve Built</h2>
+        <p class="projects-section-tagline">Selected works from my journey in web dev — more coming soon.</p>
+        <div class="projects-grid">
+
+<!--add new project here-->
+
+<!-- <a href="#" class="project project-tile" class="project project-tile" target="_blank">
+                <img src="#" alt=" project">
+                <p class="project-title">
+                    
+                </p>
+            </a> -->
+
+            <a href="https://saikat-codes.github.io/product-landing-page/" class="project project-tile" target="_blank">
+                <img src="https://github.com/saikat-codes/product-landing-page/raw/main/screenshot.png" alt="product-landing-page project">
+                <p class="project-title">
+                    Product Landing Page
+                </p>
+            </a>
+            <a href="https://saikat-codes.github.io/documentation-page/" class="project project-tile" target="_blank">
+                <img src="https://github.com/saikat-codes/documentation-page/raw/main/screenshot.png" alt="documentation-page project">
+                <p class="project-title">
+                    Documentation Page
+                </p>
+            </a>
+            <a href="https://saikat-codes.github.io/tribute-page/" target="_blank">
+                <img src="https://github.com/saikat-codes/tribute-page/raw/main/screenshot.png" alt="tribute-page project">
+                <p class="project-title">
+                    Tribute Page
+                </p>
+            </a>
+            <a href="https://saikat-codes.github.io/survey-page/" class="project project-tile" class="project project-tile" target="_blank">
+                <img src="https://github.com/saikat-codes/survey-page/raw/main/screenshot.png" alt="survey-page project">
+                <p class="project-title">
+                    Survey Page
+                </p>
+            </a>
+            <a class="project project-tile" target="_blank">
+                <img src="https://ernstharing.com/wp-content/uploads/2017/01/MoreComingSoon.png" alt="">
+                <p class="project-title">
+                    More Projects Coming Soon
+                </p>
+            </a>
+        </div>
+        <a href="https://github.com/saikat-codes?tab=repositories" class="btn-show-all" target="_blank">
+            Show all
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+        </a>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Let’s <span>Connect</span></h2>
+            <p>Open to ideas, code, and conversations.</p>
+        </div>
+        <div class="contact-links">
+            <a href="mailto:saikat612006@gmail.com" class="contact-details btn" id="profile-link" target="_blank">
+                <i class="fa-solid fa-at"></i>Send a Mail
+            </a>
+            <a href="https://www.linkedin.com/in/saikat-das-698a5b2a2/" id="profile-link" class="contact-details btn" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>Connect on LinkedIn
+            </a>
+            <a href="https://github.com/saikat-codes" id="profile-link" class="contact-details btn" target="_blank">
+                <i class="fab fa-github"></i>Check My GitHub
+            </a>
+
+<!--add new social media links here-->
+
+        </div>
+    </section>
+    <footer>
+        <p>Learning  |  Building  |  Exploring</p>
+        <p id="copyright">© Saikat Das • 2025</p>
+        <p id="aesthetics">Handcrafted with 💻 & ☕</p>
+        <span><p class="foot">made with ❤️ by <a href="https://www.linkedin.com/in/saikat-das-698a5b2a2/" target="_blank">@saikat</a></p></span>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['engineer.', 'learner.','web-developer.'],
+      typeSpeed: 85,
+    });
+  </script>
+</body>
+</html>
