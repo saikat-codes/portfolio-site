@@ -67,7 +67,7 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #121212 0%, #1e1e1e 100%);
+    background: linear-gradient(135deg, #080808 0%, #0b1921 75%, #0a4048 100%);
 }
 
 .welcome-section h1 {
