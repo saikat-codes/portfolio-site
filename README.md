@@ -36,7 +36,7 @@ Check out the live site here:
 - **Google Fonts** (Space Grotesk, Inter, Poppins, JetBrains Mono)
 
 ## Project Structure
-
+```
 /portfolio
 ├── index.html
 ├── styles.css
@@ -44,7 +44,7 @@ Check out the live site here:
 ├── favicon.png
 └── README.md
 
-
+```
 ## Key Components
 
 - **Navbar:** Fixed navigation with logo and links.
